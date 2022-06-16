@@ -1,0 +1,59 @@
+
+@font-face{
+	font-family: mi fuente;
+	src: url(../a/Fascinate-Regular.ttf);
+
+
+}
+
+#fuente-personalizado{
+	font-family: mi fuente;
+}
+
+
+
+
+
+
+
+
+body{
+
+    font-family: arial, helvetica;
+	background-image: url(../img/images\ \(2\).JPG);
+	height: 100vh;
+    width: 100%;
+   background-repeat: repeat;
+   background-size: cover;
+   margin: 0;
+   padding: 0;
+}
+
+
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #092327;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: red;
+}
+
+
+
